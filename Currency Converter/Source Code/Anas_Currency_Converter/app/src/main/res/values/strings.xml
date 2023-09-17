@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Anas_Currency_Converter</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="currencies">
+        <item>PKR - Pakistani Rupee</item>
+        <item>KWD - Kuwaiti Dinar</item>
+        <item>EUR - Euro</item>
+        <item>BHD - Bahraini Dinar</item>
+        <item>OMR - Omani Riyal</item>
+        <item>JOD - Jordanian Dinar</item>
+        <item>GBP - Pound</item>
+        <item>TRY - Turkish Lira</item>
+        <item>QAR - Qatari Rial</item>
+        <item>CAD - Canadian Dollar</item>
+        <item>AUD - Australian Dollar</item>
+        <item>SGD - Singapore Dollar</item>
+        <item>SAR - Saudi Riyal</item>
+        <item>NPR - Nepalese Rupee</item>
+    </string-array>
+</resources>
