@@ -1,0 +1,107 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.div1 {
+    display: block;
+    width: 30%;
+    height: 100vh;
+    float: left;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.div2 {
+    display: block;
+    width: 70%;
+    height: 100vh;
+    float: right;
+    background: #EBECF0;
+}
+.div3 {
+    margin-left: 30px;
+}
+.div4 {
+    margin-left: 30px;
+}
+.div1, .div2 label{
+    font-style: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.div3 input[type=text] {
+    width: 80%;
+    padding: 6px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+.div4 input[type=text] {
+    width: 90%;
+    padding: 6px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  .div4 input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  .div3 input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  .div4 .submit {
+      width: 90%;
+      background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+      color: white;
+      cursor: pointer;
+      padding: 6px 16px;
+      outline: none;
+      border: none;
+      margin-top: 5px;
+      padding: 10px;
+  }
+  .div4 .submit:focus {
+    font-weight: bold;
+  }
+.container table {
+    margin: auto;
+    border: 1px solid black;
+    background: black;
+    font-size: 15px;
+    margin-top: 20%;
+}
+.container table tr {
+    padding: 10px;
+    background-color: #4c4cf1;
+    color: white;
+}
+.container table tr th{
+    padding: 10px;
+}
+.container table tr td {
+    padding: 10px;
+    color: black;
+    background: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
